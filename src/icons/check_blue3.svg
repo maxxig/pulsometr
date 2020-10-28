@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<svg width="21" height="20">
+<path style="fill:#f7ffff; stroke:none;" d="M0 0L0 7L1 7L7 1L0 0z"/>
+<path style="fill:#62999c; stroke:none;" d="M21 8L20 8C15.9723 30.1757 -10.9843 7.00044 12 1C-2.66501 -4.65046 -3.51147 26.7681 14.9815 18.9907C16.9763 18.1518 18.639 16.8125 19.6821 14.8966C20.8443 12.7618 20.8905 10.3564 21 8z"/>
+<path style="fill:#9adce8; stroke:none;" d="M9 1L9 2L14 1L9 1z"/>
+<path style="fill:#edffff; stroke:none;" d="M14 0L15 2C12.7356 2.00175 10.2165 1.74879 8.00309 2.3179C-9.1632 6.73173 13.8599 28.506 18.5664 12.9074C19.2221 10.7342 18.9936 8.24039 19 6L11 16L6 9L11 13L19 3L20 6L21 6L21 0L14 0z"/>
+<path style="fill:#539093; stroke:none;" d="M13.6667 1.33333L14.3333 1.66667L13.6667 1.33333z"/>
+<path style="fill:#669bab; stroke:none;" d="M11 13L6 9L11 16L20 7L19 3L11 13z"/>
+<path style="fill:#94d5db; stroke:none;" d="M20 6L19 12L20 12L20 6z"/>
+<path style="fill:#7ecddc; stroke:none;" d="M1 8L1 12L2 12L1 8z"/>
+<path style="fill:#ebffff; stroke:none;" d="M0 13L0 20L6 20L6 19L0 13z"/>
+<path style="fill:#edffff; stroke:none;" d="M20 13L14 19L14 20L21 20L20 13z"/>
+<path style="fill:#9bdee6; stroke:none;" d="M8 18L8 19L13 19L8 18z"/>
+</svg>
