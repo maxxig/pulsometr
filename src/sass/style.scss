@@ -1,5 +1,13 @@
+@import 'base/variables';
 * {
     font-family: MuseoSansCyrl;
-    font-weight: 500;
     }
+.container{
+    max-width: 945px;
+    margin: 0 auto;
+}
+@import 'blocks/header';
+@import 'blocks/_promo.scss';
+@import 'blocks/buttons';
+@import 'blocks/_advantage.scss'
     

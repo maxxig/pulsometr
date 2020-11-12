@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap_learn",
+  "name": "pulsometr",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maxxig/bootstrap_learn.git"
+    "url": "git+https://github.com/maxxig/pulsometr.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/maxxig/bootstrap_learn/issues"
+    "url": "https://github.com/maxxig/pulsometr/issues"
   },
-  "homepage": "https://github.com/maxxig/bootstrap_learn#readme",
+  "homepage": "https://github.com/maxxig/pulsometr#readme",
   "devDependencies": {
     "browser-sync": "^2.26.13",
     "gulp-autoprefixer": "^7.0.1",
@@ -26,5 +26,11 @@
   },
   "dependencies": {
     "gulp": "^4.0.2"
-  }
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "not IE_Mob 11",
+    "maintained node versions"
+  ]
 }
