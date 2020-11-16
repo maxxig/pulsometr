@@ -14,4 +14,45 @@
         height: 50px;
         font-size: 16px;
     }
+    &_submit{
+        width: 100%;
+        height: 55px;
+        font-size: 16px;
+    }
+}
+@media(max-width:767px){
+    .button{
+        width: 134px;
+        height: 25px;
+        font-size: 10px;
+        &_main{
+            margin-top: 55px;
+            width: 280px;
+            height: 45px;
+            font-size: 14px;
+        }
+        &_submit{
+            width: 100%;
+            height: 45px;
+            font-size: 14px;
+        }
+    }
+}
+@media(max-width:575px){
+    .button{
+        width: 110px;
+        height: 22px;
+        font-size: 8px;
+        &_main{
+            margin-top: 55px;
+            width: 250px;
+            height: 40px;
+            font-size: 12px;
+        }
+        &_submit{
+            width: 100%;
+            height: 40px;
+            font-size: 12px;
+        }
+    }
 }
