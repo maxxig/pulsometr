@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <!--несколько вариантов слайдеров-->
+     <link rel="stylesheet" type="text/css" href="css/slick.css"/>  <!--https://kenwheeler.github.io/slick/ -->
+    <link rel="stylesheet" href="css/owl_carusel/owl.carousel.min.css" /><!--https://github.com/OwlCarousel2/OwlCarousel2-->
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.min.css">
     <title>Пульсометры</title>
 </head>
 <body>
-    <div class="promo">
+    <section class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -49,8 +52,8 @@
             </div>
 
         </div>
-    </div>
-    <div class="advantage">
+    </section>
+    <section class="advantage">
         <div class="container">
             <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
             <div class="advantage__items">
@@ -81,8 +84,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="consultation">
+    </section>
+    <section class="consultation">
         <div class="container">
             <h2 class="title title_left">Получите бесплатную консультацию<br>
                 по подбору пульсометра</h2>
@@ -95,7 +98,41 @@
                     <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
                 </form>
         </div>
-    </div>
-
+    </section>
+    <section class="carusel">
+        <div class="container">
+            <div class="carusel__inner">
+                <div>
+                    <img src="img/carusel/polar1.jpg" alt="slide">
+                </div>
+                <div>
+                    <img src="img/carusel/polar_m400.jpg" alt="slide">
+                </div>
+                <div>
+                    <img src="img/carusel/polar_m600.jpg" alt="slide">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="carusel-owl">
+        <div class="container">
+            <div class="owl-carousel owl-theme">
+                <div>
+                    <img src="img/carusel/polar1.jpg" alt="slide">
+                </div>
+                <div>
+                    <img src="img/carusel/polar_m400.jpg" alt="slide">
+                </div>
+                <div>
+                    <img src="img/carusel/polar_m600.jpg" alt="slide">
+                </div>
+            </div>
+        </div>
+    </section>
+     <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script> 
+    <script src="js/owl_carusel/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
