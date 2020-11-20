@@ -97,3 +97,23 @@
               
           );
   });
+
+  const slider = tns({
+    container: '.carusel-tinyslider__inner',
+    items: 1,
+    slideBy: 'page',
+    speed: 1200,
+    gutter: 0,
+    autoHeight: true,
+    controls:false,
+    autoplay:false,
+    nav: true
+   // controlsText: ['<img src="../icons/carusel/chevron_left.png">','<img src="../icons/carusel/chevron_right.png">']
+    });
+
+    document.querySelector('.prev').addEventListener('click', function () {
+      slider.goTo('prev');
+    });
+    document.querySelector('.next').addEventListener('click', function () {
+      slider.goTo('next');
+    });

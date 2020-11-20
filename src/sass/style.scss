@@ -3,6 +3,7 @@
     font-family: MuseoSansCyrl;
     }
 .container{
+    position: relative;
     max-width: 945px;
     margin: 0 auto;
 }
@@ -14,3 +15,5 @@
 @import 'blocks/consultation';
 @import 'blocks/forms';
 @import 'blocks/carusel';
+@import 'blocks/_carusel_owl.cscc';
+@import 'blocks/carusel-tinyslider';
